@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftVideoBackground",
+    defaultLocalization: "en",
     products: [
         .library(
             name: "SwiftVideoBackground",
